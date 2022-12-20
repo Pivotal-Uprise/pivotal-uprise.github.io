@@ -126,15 +126,15 @@ function Contact() {
                         setIsButtonLoading(true);
                         emailjs
                           .send(
-                            "service_25h5r2l",
-                            "template_c0fhgc3",
+                            "service_drr22tj",
+                            "template_hgarznb",
                             {
                               from_name: name,
-                              to_name: "WebTrope",
+                              to_name: "Pivotal Uprising",
                               message: message,
                               reply_to: email,
                             },
-                            "z2j_7TMCJIXUMebKV"
+                            "9rSfhz0ogb3gAbful"
                           )
                           .then((result) => {
                             console.log(result.text);
